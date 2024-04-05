@@ -28,12 +28,13 @@ input[type="number"] {
 }
 
 button {
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-size: 16px;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 4px;
+    margin: 5px;
     cursor: pointer;
 }
 
@@ -225,7 +226,7 @@ button:hover {
 
 .correct-answer {
     margin-top: 5px;
-    color: green; /* Green color for correct answer */
+    color: rgb(31, 226, 31); /* Green color for correct answer */
     font-weight: bold;
 }
 
@@ -245,7 +246,7 @@ button:hover {
     justify-content: center;
     width: 40px;
     height: 40px;
-    border: 2px solid #000;
+    border: 2px solid #0000009c;
     border-radius: 50%; /* Makes the shape a circle */
     margin: 0 8px;
     font-size: 20px;
@@ -281,13 +282,46 @@ button:hover {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0);
     color: white;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     width: 100%;
 
   
   
   
+}
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.skip{
+    background-color: #000;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+
+.last-element-display {
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
 }
