@@ -132,7 +132,7 @@ function selectOption(option, letter, questionNumber) {
     answersSubmitted = true; // Set flag to true after answers have been submitted
     clearInterval(countdownTimer); // Stop the countdown timer
     const selectedOptions = document.querySelectorAll('.option.selected');
-    const give_correct_ans = "dcabaacdaccda";
+  //  const give_correct_ans = "dcabaacdaccda";
     const correctAnswers = give_correct_ans.split('');
     let totalMarks = 0;
     let answeredQuestions = []; // Array to store question numbers that have been answered
